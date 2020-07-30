@@ -341,9 +341,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+.awan-bg{
+  background-image: url('./assets/img/Kios/Awan 2.png');
+}
 #hero {
   width: 100%;
-  height: 70vh;
+  height: 90vh;
   background: #fef8f5;
   border-bottom: 2px solid #fcebe3;
   margin: 72px 0 -72px 0;
@@ -418,13 +421,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     margin-bottom: 30px;
   }
   #hero .hero-img img {
-    width: 70%;
+    width: 60%;
   }
 }
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 80%;
+    width: 70%;
   }
 }
 
