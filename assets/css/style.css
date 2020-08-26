@@ -1187,6 +1187,16 @@ section {
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
+  width: fit-content;
+}
+.contact .php-email-form button[type="reset"] {
+  background: #fff;
+  border: 1;
+  padding: 10px 24px;
+  color: #eb5d1e;
+  transition: 0.4s;
+  border-radius: 4px;
+  width: fit-content;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
@@ -1459,12 +1469,12 @@ border-color: white;
   text-decoration: none;
 }
 
-.center ul {
+/* .center ul {
   width: -moz-fit-content;
   width: -webkit-fit-content;
   width: fit-content;
   margin: auto;
-}
+} */
 
 
 * {
@@ -1597,9 +1607,9 @@ button:hover, button:focus {
 }
 
 h3,
-ul {
+/* ul {
   margin: 0;
-}
+} */
 
 h3 {
   margin-bottom: 1rem;

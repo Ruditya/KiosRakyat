@@ -46,7 +46,7 @@
           <li class="active"><a href="tentang-kami.html">Tentang Kami</a></li>
           <li class="drop-down"><a href="">Layanan</a>
             <ul>
-              <li><a href="KiosRakyat_for_Customer.html">KiosRakyat for Customer</a></li>
+              <li><a href="KiosRakyat_for_Customer.html">KiosRakyat for Consumer</a></li>
               <li><a href="KiosRakyat_for_Retailer.html">KiosRakyat for Retailer</a></li>
               <li><a href="KiosRakyat_for_Supplier.html">KiosRakyat for Supplier</a></li>
              
@@ -63,11 +63,11 @@
     </header>
 <!-- End Header -->
 
-  <section>
-    <div id="top-title" class="section-title" style="background-image: url('assets/img/bg.jpeg')">
+  <section >
+    <div id="top-title" class="section-title"  style="background-image: url('assets/img/bg.jpeg')">
       <p> <img src="assets/img/Aset Admin.png" width="150" height="150"> Anda Punya Pertanyaan ?</p>
       <br><br>
-      <div class="navbar center">
+      <div class="navbar justify-content-lg-center">
         <ul>
           <li><a href="FAQ_Costumer.html">FAQ</a></li>
           <li><a href="syarat_dan_ketentuan.html">Syarat dan Ketentuan</a></li>
@@ -81,32 +81,44 @@
    
     <main id="main mt-lg-0">
 <section>
-  <div class="contain">
+  <div class="contain wrapper row">
 
-    <div class="wrapper">
-      <div class="contacts">
-        <h3>Hubungi Kami</h3>
-  
-        <ul>
-          <li><a href="/">Alamat</a></li><br>
-          <p>-</p>
-          <li><a href="/">E-Mail</a></li><br>
-          <p>-</p>
-          <li><a href="/">Instagram</a></li><br>
-          <p>-</p>
-          <li><a href="/">facebook</a></li><br>
-          <p>-</p>
-          <li><a href="/">whatsapp</a></li><br>
-          <p>-</p>
-        </ul>
+      <div class="col-lg-3">
+        <div class="info">
+          <div class="address">
+            <i class="icofont-google-map"></i>
+            <h4>Location:</h4>
+            <p>Lab Technopreneurship, Gedung Herman Yohannes
+              Jl. Yacaranda, Sekip Unit IV, Yogyakarta. 55281</p>
+          </div>
+
+          <div class="email">
+            <i class="icofont-envelope"></i>
+            <h4>Email:</h4>
+            <p>kiosrakyat.id@gmail.com</p>
+          </div>
+
+          <div class="instagram">
+            <i class="icofont-instagram"></i>
+            <h4>Instagram:</h4>
+            <p>Kiosrakyat.id</p>
+          </div>
+
+          <div class="facebook">
+            <i class="icofont-facebook"></i>
+            <h4>Facebook:</h4>
+            <p>KiosRakyat Mobile Store</p>
+          </div>
+       
       </div>
-  <div class="col-6  contact ml-lg-5" id="contact">
+      </div>
+  <div class="col-8 contact ml-lg-5 pl-lg-5" id="contact">
    
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form ">
+       <form action="forms/kirim.php" method="post" role="form" class="php-email-form pl-lg-5"> 
        
           <div class="form-group ">
             <label for="name">Your Name</label>
-            <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+            <input type="text" name="nama" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
             <div class="validate"></div>
           </div>
           <div class="form-group ">
@@ -117,12 +129,12 @@
       
         <div class="form-group">
           <label for="name">Subject</label>
-          <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+          <input type="text" class="form-control" name="judul" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
           <div class="validate"></div>
         </div>
         <div class="form-group">
           <label for="name">Message</label>
-          <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+          <textarea class="form-control" name="pesan" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
           <div class="validate"></div>
         </div>
         <div class="mb-3">
@@ -130,11 +142,13 @@
           <div class="error-message"></div>
           <div class="sent-message">Your message has been sent. Thank you!</div>
         </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
+        <div class="text-center p-4"><button type="submit">Send Message</button></div>
+        <span><div class="text-center "><button type="reset">Delete</button></div></span>
       </form>
     
-
     </div>
+    </div>
+
      
 </section>
     
@@ -175,7 +189,7 @@
             <h4>Layanan Kami</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Blog</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Layanan</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="KiosRakyat_for_Customer.html">Layanan</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="hubungi_kami.html">Hubungi Kami</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="FAQ_Costumer.html">Pusat Bantuan</a></li> 
             </ul>
@@ -183,12 +197,13 @@
 
           <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="400">
             <h4>Tetap terhubung</h4>
-            <p>Di sini, akan tertera, alamat kantor</p>
+            <p>Lab Technopreneurship, Gedung Herman Yohannes
+              Jl. Yacaranda, Sekip Unit IV, Yogyakarta. 55281</p>
             <div class="social-links mt-3">
-              <a href="#" class="email"><i class="bx bx-mail-send"></i></a>
+              <a href="hubungi_kami.html" class="email"><i class="bx bx-mail-send"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+              <a href="https://www.instagram.com/kiosrakyat.id/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <!-- <a href="#" class="whatsapp"><i class="bx bxl-whatsapp"></i></a> -->
               
             </div>
           </div>
@@ -198,7 +213,7 @@
     </div>
 
     <div class="container py-4">
-      <div class="copyright" data-aos="fade-up">
+      <div class="copyright" >
         <hr class="footer-line">
         <div>
           &copy; Copyright <strong><span>2020 KiosRakyat
